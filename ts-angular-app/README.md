@@ -5,7 +5,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## To Do tasks
 
 [x] add sass [doc](./docs/setting-scss.md)。
-[x] add 
+[x] add route [doc](./docs/)
 
 
 
