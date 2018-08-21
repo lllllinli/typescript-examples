@@ -4,10 +4,32 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## To Do tasks
 
-[x] add sass [doc](./docs/setting-scss.md)。
-[x] add route [doc](./docs/)
+- [x] add sass [doc](./docs/setting-scss.md)。
+- [x] add route [doc](./docs/add-route.md)。
+- [ ] add Angular Material [doc](./docs/angular-material.md) `不採用`
+- [x] add Bootsrap [doc](./docs/add-bootsrap.md)
+- [x] add Component prefix [doc](./docs/add-component-prefix.md)
+- [x] add Glodal Scripts Styles Assets [doc](./docs/add-global-scripts-styles-assets.md)
+- [ ] add third party liberys ( 假如沒有 `typescript` 版本，又要在內部使用 )
+
+- [x] add component [doc](./docs/add-commponent.md)
+
+## 專案資料夾目錄：
 
 
+## 主程式資料夾 `./src` 下結構：
+
+> 使用 `homebrew` 的 `tree` 產出資料結構
+
+
+
+
+
+## 重要參考資料
+
+- angular office sit [link](https://angular.io/)。
+- angular office sit cn [link](https://angular.cn/)。
+- angular command line wiki [link](https://github.com/angular/angular-cli/wiki)。 
 
 
 
