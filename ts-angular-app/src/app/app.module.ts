@@ -8,6 +8,8 @@ import { LogoComponent } from './components/logo/logo.component';
 import { NavigationBarComponent } from './components/navigation-bar/navigation-bar.component';
 import { AboutComponent } from './pages/about/about.component';
 import { LabComponent } from './pages/lab/lab.component';
+import { NotFoundComponent } from './pages/not-found/not-found.component';
+import { TestComponentAndTemplateComponent } from './components/test-component-and-template/test-component-and-template.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +19,8 @@ import { LabComponent } from './pages/lab/lab.component';
     NavigationBarComponent,
     AboutComponent,
     LabComponent,
+    NotFoundComponent,
+    TestComponentAndTemplateComponent,
   ],
   imports: [
     BrowserModule,

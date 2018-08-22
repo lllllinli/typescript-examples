@@ -6,8 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./logo.component.scss']
 })
 export class LogoComponent implements OnInit {
-
-  constructor() { }
+  imageUrl: string;
+  constructor() {
+    this.imageUrl = 'assets/images/icons8-idea.svg';
+  }
 
   ngOnInit() {
   }
