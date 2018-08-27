@@ -2,6 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
+自我練習專案與筆記。
+
 ## To Do tasks
 
 - [x] add sass [doc](./docs/setting-scss.md)。
@@ -14,6 +16,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 - [x] add component [doc](./docs/add-commponent.md)
 
+- [x] add storybook [doc](https://storybook.js.org/basics/guide-angular/)
+  :: 發現文件錯誤很多
+- [x] 三種 component 資訊間傳遞的方式 [doc](./docs/third-type-component-pass-data.md)
+
 ## 專案資料夾目錄：
 
 
@@ -21,15 +27,14 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 > 使用 `homebrew` 的 `tree` 產出資料結構
 
+ 
 
 
 
 
 ## 重要參考資料
 
-- angular office sit [link](https://angular.io/)。
-- angular office sit cn [link](https://angular.cn/)。
-- angular command line wiki [link](https://github.com/angular/angular-cli/wiki)。 
+[doc](./docs/reference.md)
 
 
 

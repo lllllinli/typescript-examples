@@ -1,0 +1,13 @@
+<div class="jumbotron">
+  <div class="container">
+    <h2>{{title}}</h2>
+    <mif-counter
+      (counterChange)="onCounterChange($event)"
+      [initialCounter]="initialCounter"
+    ></mif-counter>
+    <form class="form-inline">
+      <label class="sr-only">Name</label>
+      <input type="number" class="form-control mb-1 mr-sm-2 counter-display" [value]="counter" disabled>
+    </form>
+  </div>
+</div>

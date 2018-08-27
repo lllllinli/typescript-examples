@@ -10,6 +10,10 @@ import { AboutComponent } from './pages/about/about.component';
 import { LabComponent } from './pages/lab/lab.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { TestComponentAndTemplateComponent } from './components/test-component-and-template/test-component-and-template.component';
+import { CounterComponent } from './components/counter/counter.component';
+import { TestCustomComponentComponent } from './components/test-custom-component/test-custom-component.component';
+import { TestViewChildComponent } from './components/test-view-child/test-view-child.component';
+import { CounterDisplayComponent } from './components/counter-display/counter-display.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +25,10 @@ import { TestComponentAndTemplateComponent } from './components/test-component-a
     LabComponent,
     NotFoundComponent,
     TestComponentAndTemplateComponent,
+    CounterComponent,
+    TestCustomComponentComponent,
+    TestViewChildComponent,
+    CounterDisplayComponent,
   ],
   imports: [
     BrowserModule,

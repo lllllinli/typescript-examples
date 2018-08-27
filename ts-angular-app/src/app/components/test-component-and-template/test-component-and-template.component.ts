@@ -22,9 +22,14 @@ export class TestComponentAndTemplateComponent implements OnInit {
     new Hero(20, 'Tornado')
   ];
   myHero = this.heroes[0];
+  isUnchanged = false;
   constructor() { }
 
   ngOnInit() {
+  }
+
+  changeBtnStatus():void {
+    this.isUnchanged = !this.isUnchanged;
   }
 
 }

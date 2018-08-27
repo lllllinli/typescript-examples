@@ -7,5 +7,25 @@
       </li>
     </ul>
     <p *ngIf="heroes.length > 3">There are many heroes!</p>
+    <form>
+      <div class="form-row align-items-center">
+        <div class="col-auto">
+          <label>click me
+            <input type="checkbox" (change)="changeBtnStatus()">
+          </label>
+        </div>
+        <div class="col-auto">
+          <button
+            [ngClass]="{
+            'btn btn-primary': !isUnchanged
+          }"
+            [disabled]="isUnchanged">
+            button isUnchanged is {{isUnchanged}}
+          </button>
+        </div>
+        <div class="col-auto">
+        </div>
+      </div>
+    </form>
   </div>
 </div>
