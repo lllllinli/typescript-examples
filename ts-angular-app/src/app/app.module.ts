@@ -14,6 +14,13 @@ import { CounterComponent } from './components/counter/counter.component';
 import { TestCustomComponentComponent } from './components/test-custom-component/test-custom-component.component';
 import { TestViewChildComponent } from './components/test-view-child/test-view-child.component';
 import { CounterDisplayComponent } from './components/counter-display/counter-display.component';
+import { TestObservableDataServiceComponent } from './components/test-observable-data-service/test-observable-data-service.component';
+import { TestObserableCounterComponent } from './components/test-obserable-counter/test-obserable-counter.component';
+
+// Service
+import { CounterService } from './services/counter.service';
+import { InitialCounterInterface } from './interface/initial-counter.interface';
+import { ChangeCounterInterface } from './interface/change.counter.interface';
 
 @NgModule({
   declarations: [
@@ -29,12 +36,18 @@ import { CounterDisplayComponent } from './components/counter-display/counter-di
     TestCustomComponentComponent,
     TestViewChildComponent,
     CounterDisplayComponent,
+    TestObservableDataServiceComponent,
+    TestObserableCounterComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule, // App 的 Router
   ],
-  providers: [], // service
+  providers: [
+    CounterService,
+    {provide: InitialCounterInterface, useExisting: CounterService},
+    {provide: ChangeCounterInterface, useExisting: CounterService}
+  ], // service
   bootstrap: [AppComponent] // App 的 root component
 })
 export class AppModule { }

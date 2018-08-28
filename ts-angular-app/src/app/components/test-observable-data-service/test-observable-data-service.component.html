@@ -1,0 +1,10 @@
+<div class="jumbotron">
+  <div class="container">
+    <h2>{{title}}</h2>
+    <div class="btn-group">
+      <button class="btn btn-outline-dark" (click)="onAdd1Click()">+</button>
+      <button class="btn btn-outline-dark" (click)="onMinus1Click()">-</button>
+    </div>
+    <mif-test-obserable-counter [initialCounter]="initialCounter"></mif-test-obserable-counter>
+  </div>
+</div>
