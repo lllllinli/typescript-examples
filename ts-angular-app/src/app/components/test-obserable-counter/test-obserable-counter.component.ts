@@ -14,6 +14,7 @@ export class TestObserableCounterComponent implements OnInit {
   constructor(private counterService: InitialCounterInterface) {}
 
   ngOnInit() {
+    console.log('TestObserableCounterComponent : init');
     this.counterService.setInitialCounter(this.initialCounter);
   }
 
