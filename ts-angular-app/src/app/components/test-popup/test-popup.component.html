@@ -1,0 +1,17 @@
+<div class="jumbotron">
+  <div class="container">
+    <h2>{{title}}</h2>
+    <div ngClass="form-inline">
+      <div class="form-group mx-sm-3 mb-2">
+        <input #input value="Message" ngClass="form-control">
+      </div>
+      <div class="form-group mx-sm-3 mb-2">
+        <div class="btn-group">
+          <button class="btn btn-outline-dark" (click)="popup.showAsComponent(input.value)">Show as component</button>
+          <button class="btn btn-outline-dark" (click)="popup.showAsElement(input.value)">Show as element</button>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
