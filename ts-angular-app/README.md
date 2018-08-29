@@ -15,10 +15,15 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 - [ ] add third party liberys ( 假如沒有 `typescript` 版本，又要在內部使用 )
 
 - [x] add component [doc](./docs/add-commponent.md)
+- [x] 三種 component 資訊間傳遞的方式 [doc](./docs/third-type-component-pass-data.md)。
+- [x] angular elements - Angular 實作 Web component [doc](https://angular.cn/guide/elements#angular-elements-overview)。
+  `需要回頭看` 
+- [x] 詳細了解 service [doc](./docs/angular-service.md)
 
-- [x] add storybook [doc](https://storybook.js.org/basics/guide-angular/)
-  :: 發現文件錯誤很多
-- [x] 三種 component 資訊間傳遞的方式 [doc](./docs/third-type-component-pass-data.md)
+
+
+- [x] add storybook [doc](https://storybook.js.org/basics/guide-angular/)。文件錯誤頗多
+
 
 ## 專案資料夾目錄：
 

@@ -91,6 +91,12 @@
     "@angular-devkit/core" "0.6.8"
     rxjs "^6.0.0"
 
+"@angular/animations@^6.1.4":
+  version "6.1.4"
+  resolved "https://registry.yarnpkg.com/@angular/animations/-/animations-6.1.4.tgz#ca17acd62b9328404671a569fbf3065472527174"
+  dependencies:
+    tslib "^1.9.0"
+
 "@angular/cli@~6.0.8":
   version "6.0.8"
   resolved "https://registry.yarnpkg.com/@angular/cli/-/cli-6.0.8.tgz#65070958b944be30053232c51f8449b7ddd4d92a"
@@ -132,6 +138,12 @@
 "@angular/core@^6.0.3":
   version "6.1.2"
   resolved "https://registry.yarnpkg.com/@angular/core/-/core-6.1.2.tgz#412dd32a91ec1d5d6db508babbb36e9799235d8d"
+  dependencies:
+    tslib "^1.9.0"
+
+"@angular/elements@^6.1.4":
+  version "6.1.4"
+  resolved "https://registry.yarnpkg.com/@angular/elements/-/elements-6.1.4.tgz#55638d005d4556f94ad6904836c9958c821fc6cf"
   dependencies:
     tslib "^1.9.0"
 
@@ -4858,6 +4870,12 @@ import-local@^1.0.0:
     pkg-dir "^2.0.0"
     resolve-cwd "^2.0.0"
 
+import@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/import/-/import-0.0.6.tgz#d0eb79df86aa2677c6db61578a5212b3031e6042"
+  dependencies:
+    optimist "0.3.x"
+
 imurmurhash@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/imurmurhash/-/imurmurhash-0.1.4.tgz#9218b9b2b928a238b13dc4fb6b6d576f231453ea"
@@ -6601,6 +6619,12 @@ opn@^5.1.0, opn@~5.3.0:
   resolved "https://registry.yarnpkg.com/opn/-/opn-5.3.0.tgz#64871565c863875f052cfdf53d3e3cb5adb53b1c"
   dependencies:
     is-wsl "^1.1.0"
+
+optimist@0.3.x:
+  version "0.3.7"
+  resolved "https://registry.yarnpkg.com/optimist/-/optimist-0.3.7.tgz#c90941ad59e4273328923074d2cf2e7cbc6ec0d9"
+  dependencies:
+    wordwrap "~0.0.2"
 
 optimist@^0.6.1, optimist@~0.6.0:
   version "0.6.1"

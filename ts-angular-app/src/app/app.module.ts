@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './router/app-routing.module';
@@ -21,6 +22,10 @@ import { TestObserableCounterComponent } from './components/test-obserable-count
 import { CounterService } from './services/counter.service';
 import { InitialCounterInterface } from './interface/initial-counter.interface';
 import { ChangeCounterInterface } from './interface/change.counter.interface';
+import { PopupComponent } from './components/popup/popup.component';
+import { TestPopupComponent } from './components/test-popup/test-popup.component';
+
+import { PopupService } from './components/popup/popup.service';
 
 @NgModule({
   declarations: [
@@ -38,16 +43,23 @@ import { ChangeCounterInterface } from './interface/change.counter.interface';
     CounterDisplayComponent,
     TestObservableDataServiceComponent,
     TestObserableCounterComponent,
+    PopupComponent,
+    TestPopupComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule, // App 的 Router
+    BrowserAnimationsModule,
   ],
   providers: [
     CounterService,
     {provide: InitialCounterInterface, useExisting: CounterService},
-    {provide: ChangeCounterInterface, useExisting: CounterService}
+    {provide: ChangeCounterInterface, useExisting: CounterService},
+    PopupService,
   ], // service
-  bootstrap: [AppComponent] // App 的 root component
+  bootstrap: [
+    AppComponent
+  ], // App 的 root component
+  entryComponents: [PopupComponent],
 })
 export class AppModule { }
