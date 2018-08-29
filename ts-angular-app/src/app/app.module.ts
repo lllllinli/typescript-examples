@@ -26,6 +26,7 @@ import { PopupComponent } from './components/popup/popup.component';
 import { TestPopupComponent } from './components/test-popup/test-popup.component';
 
 import { PopupService } from './components/popup/popup.service';
+import { TestSimpleServiceComponent } from './components/test-simple-service/test-simple-service.component';
 
 @NgModule({
   declarations: [
@@ -45,6 +46,7 @@ import { PopupService } from './components/popup/popup.service';
     TestObserableCounterComponent,
     PopupComponent,
     TestPopupComponent,
+    TestSimpleServiceComponent,
   ],
   imports: [
     BrowserModule,

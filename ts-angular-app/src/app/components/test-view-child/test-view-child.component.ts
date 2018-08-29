@@ -11,9 +11,7 @@ export class TestViewChildComponent implements AfterViewInit {
   title = 'Test View Child';
   initialCounter = 3;
   @ViewChild(CounterDisplayComponent) counterDisplayComponent: CounterDisplayComponent;
-  ngAfterViewInit() {
-    console.log(this.counterDisplayComponent.counter);
-  }
+  ngAfterViewInit() {}
 
   onAdd1Click() {
     this.counterDisplayComponent.add1();
