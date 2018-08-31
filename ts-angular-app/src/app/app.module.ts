@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './router/app-routing.module';
@@ -27,6 +28,7 @@ import { TestPopupComponent } from './components/test-popup/test-popup.component
 
 import { PopupService } from './components/popup/popup.service';
 import { TestSimpleServiceComponent } from './components/test-simple-service/test-simple-service.component';
+import { TestHttpClientComponent } from './components/test-http-client/test-http-client.component';
 
 @NgModule({
   declarations: [
@@ -47,11 +49,13 @@ import { TestSimpleServiceComponent } from './components/test-simple-service/tes
     PopupComponent,
     TestPopupComponent,
     TestSimpleServiceComponent,
+    TestHttpClientComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule, // App 的 Router
     BrowserAnimationsModule,
+    HttpClientModule,
   ],
   providers: [
     CounterService,

@@ -18,7 +18,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 - [x] 三種 component 資訊間傳遞的方式 [doc](./docs/third-type-component-pass-data.md)。
 - [x] angular elements - Angular 實作 Web component [doc](https://angular.cn/guide/elements#angular-elements-overview)。
   `需要回頭看` 
-- [x] 詳細了解 service [doc](./docs/angular-service.md)
+- [x] 詳細了解 service [doc](./docs/angular-service.md)。
+- [x] angular httpClient [doc](./docs/angular-http-client.md)。
 
 
 
